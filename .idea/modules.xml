@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gm-common.iml" filepath="$PROJECT_DIR$/gm-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gm-common-base/gm-common-base.iml" filepath="$PROJECT_DIR$/gm-common-base/gm-common-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gm-common-utils/gm-common-utils.iml" filepath="$PROJECT_DIR$/gm-common-utils/gm-common-utils.iml" />
+    </modules>
+  </component>
+</project>
