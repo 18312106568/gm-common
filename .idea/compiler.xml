@@ -13,7 +13,13 @@
     <bytecodeTargetLevel>
       <module name="gm-common" target="1.8" />
       <module name="gm-common-base" target="1.8" />
-      <module name="gm-common-utils" target="1.5" />
+      <module name="gm-common-utils" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gm-common-base" options="-parameters" />
+      <module name="gm-common-utils" options="-parameters" />
+    </option>
   </component>
 </project>
