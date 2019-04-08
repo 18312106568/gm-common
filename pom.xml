@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
 
     <name>gm-common</name>
-    <description>the project common base and utils</description>
+    <description>公共包</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -25,52 +25,160 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <project.gm-common.version>0.0.1-SNAPSHOT</project.gm-common.version>
+        <project.gm-common-base.version>0.0.1-SNAPSHOT</project.gm-common-base.version>
+        <project.gm-common-utils.version>0.0.1-SNAPSHOT</project.gm-common-utils.version>
+        <project.gm-facade-user.version>0.0.1-SNAPSHOT</project.gm-facade-user.version>
+        <project.gm-facade-fee.version>0.0.1-SNAPSHOT</project.gm-facade-fee.version>
+        <project.gm-service-user.version>0.0.1-SNAPSHOT</project.gm-service-user.version>
+
+
         <java.version>1.8</java.version>
+        <lombok.version>1.16.18</lombok.version>
+        <hibernate-jpa.version>1.0.2.Final</hibernate-jpa.version>
         <netty.version>4.1.24.Final</netty.version>
         <alibaba.fastjson.version>1.2.47</alibaba.fastjson.version>
-        <alibaba.boot.version>0.1.0</alibaba.boot.version>
+        <alibaba.boot.version>0.2.0</alibaba.boot.version>
         <commons.lang3.version>3.7</commons.lang3.version>
-        <lombok.version>1.16.18</lombok.version>
+        <mysql.version>5.1.47</mysql.version>
+        <dubbo.version>2.7.0</dubbo.version>
+        <dubbo.rpc.version>2.7.0</dubbo.rpc.version>
+        <resteasy.version>3.0.19.Final</resteasy.version>
+        <dubbo.version>2.7.0</dubbo.version>
+        <curator.version>4.0.1</curator.version>
+        <zookeeper.version>3.4.13</zookeeper.version>
+        <nacos-config-spring-boot.version>0.2.1</nacos-config-spring-boot.version>
     </properties>
 	
     <dependencyManagement>
         <dependencies>
+            <!-- 内部项目包 -->
             <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-web</artifactId>
+                <groupId>gm.common</groupId>
+                <artifactId>gm-common</artifactId>
+                <version>${project.gm-common.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>fastjson</artifactId>
-                <version>${alibaba.fastjson.version}</version>
-            </dependency>
-             <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-web</artifactId>
-                 <version>1.5.9.RELEASE</version>
+                <groupId>gm.common</groupId>
+                <artifactId>gm-common-base</artifactId>
+                <version>${project.gm-common-base.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.alibaba.boot</groupId>
+                <groupId>gm.common</groupId>
+                <artifactId>gm-common-utils</artifactId>
+                <version>${project.gm-common-utils.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>gm.facade</groupId>
+                <artifactId>gm-facade-user</artifactId>
+                <version>${project.gm-facade-user.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>gm.facade</groupId>
+                <artifactId>gm-facade-fee</artifactId>
+                <version>${project.gm-facade-fee.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>gm.service</groupId>
+                <artifactId>gm-service-user</artifactId>
+                <version>${project.gm-service-user.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
                 <artifactId>dubbo-spring-boot-starter</artifactId>
-                <version>${alibaba.boot.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.netty</groupId>
-                <artifactId>netty-all</artifactId>
-                <version>${netty.version}</version>
+                <version>${dubbo.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${commons.lang3.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.hibernate.javax.persistence</groupId>
+                <artifactId>hibernate-jpa-2.1-api</artifactId>
+                <version>${hibernate-jpa.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
                 <type>jar</type>
             </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${alibaba.fastjson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.dubbo.samples</groupId>
+                <artifactId>dubbo-spring-boot-sample-api</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
+
+            <!-- Zookeeper -->
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>${zookeeper.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-framework</artifactId>
+                <version>${curator.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-recipes</artifactId>
+                <version>${curator.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.boot</groupId>
+                <artifactId>nacos-config-spring-boot-starter</artifactId>
+                <version>${nacos-config-spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.boot</groupId>
+                <artifactId>nacos-config-spring-boot-actuator</artifactId>
+                <version>${nacos-config-spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
+
+
+
+    <distributionManagement>
+        <repository>
+            <id>localoss-releases</id>
+            <url>http://192.168.7.41:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>localoss-snapshots</id>
+            <url>http://192.168.7.41:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>

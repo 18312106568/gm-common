@@ -17,7 +17,7 @@ public class LogPoint {
     public void addCostPoint(){}
 
     @Around("addCostPoint()")
-    public Object doLog(ProceedingJoinPoint jp) throws Throwable {
+    public Object doCost(ProceedingJoinPoint jp) throws Throwable {
         long start = System.currentTimeMillis();
         Object result = jp.proceed();
         long end = System.currentTimeMillis();
