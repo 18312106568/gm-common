@@ -84,6 +84,8 @@
                 <artifactId>gm-service-user</artifactId>
                 <version>${project.gm-service-user.version}</version>
             </dependency>
+
+            <!-- 第三方jar包-->
             <dependency>
                 <groupId>org.apache.dubbo</groupId>
                 <artifactId>dubbo-spring-boot-starter</artifactId>
