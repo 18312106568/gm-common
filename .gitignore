@@ -7,8 +7,10 @@
 
 # Maven package
 /target
+*/target
 
 #idea settings
+*.iml
 .classpath
 .project
 .settings
