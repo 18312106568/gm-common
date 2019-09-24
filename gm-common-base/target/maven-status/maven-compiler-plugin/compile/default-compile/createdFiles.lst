@@ -1,2 +1,8 @@
-gm\common\base\annotation\CostLog.class
 gm\common\base\aop\LogPoint.class
+gm\common\base\sql\AbstractQuery$1.class
+gm\common\base\annotation\CostLog.class
+gm\common\base\annotation\FieldName.class
+gm\common\base\sql\SimpleCondition.class
+gm\common\base\sql\AbstractQuery.class
+gm\common\base\sql\SimpleOperator.class
+gm\common\base\annotation\ParamterLog.class

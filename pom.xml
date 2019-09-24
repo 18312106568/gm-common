@@ -19,7 +19,6 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.5.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <properties>
@@ -50,8 +49,9 @@
         <zookeeper.version>3.4.13</zookeeper.version>
         <nacos-config-spring-boot.version>0.2.1</nacos-config-spring-boot.version>
         <logstash-logback-encoder.version>5.1</logstash-logback-encoder.version>
+        <cxf.version>3.3.0</cxf.version>
     </properties>
-	
+
     <dependencyManagement>
         <dependencies>
             <!-- 内部项目包 -->
@@ -173,6 +173,12 @@
                 <groupId>net.logstash.logback</groupId>
                 <artifactId>logstash-logback-encoder</artifactId>
                 <version>${logstash-logback-encoder.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.cxf</groupId>
+                <artifactId>cxf-spring-boot-starter-jaxws</artifactId>
+                <version>${cxf.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
