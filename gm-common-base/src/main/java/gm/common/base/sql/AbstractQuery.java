@@ -116,4 +116,32 @@ public abstract class AbstractQuery<T> {
         return criteriaBuilder.and(list.toArray(p));
     }
 
+    /**
+     * 获取查询条件
+     * @param root
+     * @param criteriaQuery
+     * @param cb
+     * @param mainAndCondition
+     * @param mainOrCondition
+     * @return
+     */
+    protected Predicate getPredicate(Root<T> root
+            , CriteriaQuery criteriaQuery
+            , CriteriaBuilder cb
+            , Collection<SimpleCondition> mainAndCondition
+            , Collection<SimpleCondition> mainOrCondition) {
+        List<Predicate> predicateList = new ArrayList<>();
+        //主表and查询条件
+        if (mainAndCondition != null && !mainAndCondition.isEmpty()) {
+            Predicate mainAndPredicate = where(root, cb, Predicate.BooleanOperator.AND, mainAndCondition);
+            predicateList.add(mainAndPredicate);
+        }
+        //主表or查询条件
+        if (mainOrCondition != null && !mainOrCondition.isEmpty()) {
+            Predicate mainOrPredicate = where(root, cb, Predicate.BooleanOperator.OR, mainOrCondition);
+            predicateList.add(mainOrPredicate);
+        }
+        return cb.and(predicateList.toArray(new Predicate[predicateList.size()]));
+    }
+
 }

@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f293690b-57a8-4dc0-bcee-8df55b4a113d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/AbstractQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/AbstractQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/SimpleCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/SimpleCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/SimpleOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/SimpleOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gm-common-base/target/gm-common-base-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gm-common-base/target/gm-common-base-0.0.1-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/gm-common-base/target/" />
     <ignored path="$PROJECT_DIR$/gm-common-utils/target/" />
@@ -19,24 +23,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gm-common-utils/src/main/java/gm/common/generator/IdGenerator.java">
+        <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/aop/LogPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="57">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2442#2443#0" expanded="true" />
-                <element signature="e#2491#2492#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/aop/LogPoint.java">
+        <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/AbstractQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+            <state relative-caret-position="-162">
+              <caret line="124" column="29" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,10 +47,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/annotation/ParamterLog.java">
+        <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/SimpleCondition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,13 +59,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/annotation/CostLog.java">
+        <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/SimpleOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="231">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -169,18 +168,18 @@
         <option value="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/aop/BeanLog.java" />
         <option value="$PROJECT_DIR$/gm-common-utils/README.md" />
         <option value="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/Operator.java" />
-        <option value="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/SimpleOperator.java" />
         <option value="$PROJECT_DIR$/gm-common-base/pom.xml" />
-        <option value="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/SimpleCondition.java" />
         <option value="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/annotation/FieldName.java" />
         <option value="$PROJECT_DIR$/gm-common-utils/pom.xml" />
         <option value="$PROJECT_DIR$/gm-common-utils/src/main/java/gm/common/utils/GsonUtils.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/AbstractQuery.java" />
         <option value="$PROJECT_DIR$/gm-common-utils/src/main/java/gm/common/generator/IdGenerator.java" />
         <option value="$PROJECT_DIR$/gm-common-utils/src/main/java/gm/common/utils/ConverUtils.java" />
         <option value="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/annotation/ParamterLog.java" />
         <option value="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/aop/LogPoint.java" />
+        <option value="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/AbstractQuery.java" />
+        <option value="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/SimpleCondition.java" />
+        <option value="$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/SimpleOperator.java" />
       </list>
     </option>
   </component>
@@ -227,7 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,7 +286,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gm-common" type="b2602c69:ProjectViewProjectNode" />
@@ -349,13 +347,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569835630102" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570515438899" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../gm-facade" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -417,18 +416,20 @@
       <workItem from="1568261677033" duration="610000" />
       <workItem from="1568789224181" duration="598000" />
       <workItem from="1568874137181" duration="597000" />
-      <workItem from="1568949500176" duration="4341000" />
+      <workItem from="1568949500176" duration="4979000" />
+      <workItem from="1570515646420" duration="1793000" />
+      <workItem from="1572310084179" duration="3517000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72176000" />
+    <option name="totallyTimeSpent" value="78124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22750643" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23714653" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -443,7 +444,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.34454912" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2987887" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -538,40 +539,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/SimpleOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/SimpleCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.pom">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/AbstractQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3759">
           <caret line="179" column="38" selection-start-line="179" selection-start-column="38" selection-end-line="179" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gm-common-utils/src/main/java/gm/common/generator/IdGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2442#2443#0" expanded="true" />
+            <element signature="e#2491#2492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/annotation/ParamterLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/annotation/CostLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -616,42 +622,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gm-common-utils/src/main/java/gm/common/generator/IdGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2442#2443#0" expanded="true" />
-            <element signature="e#2491#2492#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/annotation/CostLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/annotation/ParamterLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/aop/LogPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        <state relative-caret-position="57">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/SimpleOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/SimpleCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gm-common-base/src/main/java/gm/common/base/sql/AbstractQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="124" column="29" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
